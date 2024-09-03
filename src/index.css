@@ -66,3 +66,29 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* .text-capitalize {
+  text-transform: capitalize !important;
+} */
+.card-heading {
+  padding: 0 2rem;
+}
+
+.verify-pay-card {
+  width: 100%;
+  padding: 1rem;
+}
+
+.left {
+  font-size: 13px;
+}
+
+.right {
+  font-size: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .right {
+    font-size: 9px;
+  }
+}
